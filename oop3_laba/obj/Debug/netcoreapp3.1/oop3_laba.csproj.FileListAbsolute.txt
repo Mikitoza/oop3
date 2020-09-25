@@ -1,0 +1,13 @@
+D:\лабы ооп\oop3_laba\oop3_laba\bin\Debug\netcoreapp3.1\oop3_laba.exe
+D:\лабы ооп\oop3_laba\oop3_laba\bin\Debug\netcoreapp3.1\oop3_laba.deps.json
+D:\лабы ооп\oop3_laba\oop3_laba\bin\Debug\netcoreapp3.1\oop3_laba.runtimeconfig.json
+D:\лабы ооп\oop3_laba\oop3_laba\bin\Debug\netcoreapp3.1\oop3_laba.runtimeconfig.dev.json
+D:\лабы ооп\oop3_laba\oop3_laba\bin\Debug\netcoreapp3.1\oop3_laba.dll
+D:\лабы ооп\oop3_laba\oop3_laba\bin\Debug\netcoreapp3.1\oop3_laba.pdb
+D:\лабы ооп\oop3_laba\oop3_laba\obj\Debug\netcoreapp3.1\oop3_laba.csprojAssemblyReference.cache
+D:\лабы ооп\oop3_laba\oop3_laba\obj\Debug\netcoreapp3.1\oop3_laba.AssemblyInfoInputs.cache
+D:\лабы ооп\oop3_laba\oop3_laba\obj\Debug\netcoreapp3.1\oop3_laba.AssemblyInfo.cs
+D:\лабы ооп\oop3_laba\oop3_laba\obj\Debug\netcoreapp3.1\oop3_laba.csproj.CoreCompileInputs.cache
+D:\лабы ооп\oop3_laba\oop3_laba\obj\Debug\netcoreapp3.1\oop3_laba.dll
+D:\лабы ооп\oop3_laba\oop3_laba\obj\Debug\netcoreapp3.1\oop3_laba.pdb
+D:\лабы ооп\oop3_laba\oop3_laba\obj\Debug\netcoreapp3.1\oop3_laba.genruntimeconfig.cache
