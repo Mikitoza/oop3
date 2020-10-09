@@ -4,6 +4,7 @@ namespace oop3_laba
 {
     class Time
     {
+        public static int eq = 100;
         private int number;
         public int Number
         {
@@ -81,35 +82,36 @@ namespace oop3_laba
 
         const int amount = 24;
         private readonly int ID;
-        static int kolvo;
+        public static int kolvo = 0;
         public Time()
         {
-            sec = 0;
-            minutes = 50;
-            hours = 9;
-            number = kolvo + 1;
+            Sec = 0;
+            Minutes = 50;
+            Hours = 9;
+            Number = kolvo + 1;
             kolvo++;
         }
 
         public Time(sbyte a, sbyte b, ushort c)
         {
-            sec = a;
-            minutes = b;
-            hours = c;
-            number = kolvo + 1;
+            Sec = a;
+            Minutes = b;
+            Hours = c;
+            Number = kolvo + 1;
             kolvo++;
         }
 
-        public Time(sbyte a = 6, ushort c = 8)
-        {
-            sec = a;
-            hours = c;
-            number = kolvo + 1;
-            kolvo++;
-        }
+  //     public Time(sbyte a = 6, ushort c = 8)
+  //      {
+  //          Sec = a;
+  //          Hours = c;
+  //          Number = kolvo + 1;
+  //          kolvo++;
+  //      }
 
         static Time()
         {
+            Console.WriteLine("Статический конструктор");
             kolvo++;
         }
 
@@ -151,9 +153,11 @@ namespace oop3_laba
     {
         static void Main(string[] args)
         {
+            int u = Time.eq;
             Time tim1 = new Time(16,17,5);
             Time tim2 = new Time(10, 20, 11);
             Time tim3 = new Time(15, 12, 17);
+            Console.WriteLine(Time.kolvo);
             Console.WriteLine(tim1.GetType());
             Time[] times = new Time[] { tim1, tim2, tim3 };
             int hour = Convert.ToInt32(Console.ReadLine());
@@ -187,5 +191,8 @@ namespace oop3_laba
             Console.WriteLine($"{time.hours} {time.minutes} {time.sec}");
         }
     }
-
+    // статика
+    // методы класса System.object
+    // ref  out 
+    // аноннимный тип
 }
